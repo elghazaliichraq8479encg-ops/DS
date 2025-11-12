@@ -39,10 +39,23 @@ print(bank_marketing.metadata)
 # variable information
 print(bank_marketing.variables)
 ```
+**Code Python -VISUALISATION AVEC GRAPHES :**
 
+```python
+categorical_features = ['job', 'marital', 'education']
 
+plt.figure(figsize=(18, 6))
+for i, feature in enumerate(categorical_features):
+    plt.subplot(1, len(categorical_features), i + 1)
+    sns.countplot(x=feature, data=df, palette='coolwarm')
+    plt.title(f'Distribution of {feature.capitalize()}')
+    plt.xlabel(feature.capitalize())
+    plt.ylabel('Count')
+    plt.xticks(rotation=45, ha='right')
+plt.tight_layout()
+plt.show()
 
-
+```
 
 
 
