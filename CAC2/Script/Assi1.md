@@ -8,7 +8,5 @@ EL GHAZALI ICHRAQ
 
 # DESCREPTIF
 
-#
-
-
+# La base de données "Bank Marketing" provient d'une institution bancaire portugaise et est liée aux campagnes de marketing direct par téléphone menées par cette banque. L'objectif principal est de prédire si un client souscrira à un dépôt à terme (variable cible y) suite à ces appels. Cette base a été créée par Sérgio Moro, Pedro Cortez et Paulo Rita, et décrite dans un article intitulé "A Data-Driven Approach to Predict the Success of Bank Telemarketing" publié en 2014 dans la revue Decision Support Systems. Le but est d'étudier et prédire l'efficacité des campagnes téléphoniques en analysant des données multiples sur les clients (âge, emploi, statut marital, etc.) et les détails des contacts marketing (durée de l'appel, nombre de contacts, résultats des campagnes précédentes, etc.). Ainsi, cette base de données sert à développer et tester des modèles de classification pour prédire la réussite des campagnes marketing par téléphone d'une banque en se basant sur des données réelles collectées entre 2008 et 2010.
 
