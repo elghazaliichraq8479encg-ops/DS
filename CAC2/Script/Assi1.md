@@ -24,14 +24,6 @@ Le but est d'étudier et prédire l'efficacité des campagnes téléphoniques en
 
 ```python
 
-* `from ucimlrepo import fetch_ucirepo` → importe la fonction permettant de télécharger des jeux de données depuis la bibliothèque **UCI Machine Learning Repository**.
-* `bank_marketing = fetch_ucirepo(id=222)` → télécharge le jeu de données **Bank Marketing** (ID 222 dans la base UCI).
-* `X = bank_marketing.data.features` → extrait les **variables explicatives** (features) sous forme de DataFrame `X`.
-* `y = bank_marketing.data.targets` → extrait la **variable cible** (target) sous forme de DataFrame `y`.
-* `print(bank_marketing.metadata)` → affiche les **informations générales** sur le jeu de données (nom, description, source, etc.).
-* `print(bank_marketing.variables)` → affiche la **description des variables** (noms, types, unités, etc.).
-
-
 from ucimlrepo import fetch_ucirepo
 
 # fetch dataset
@@ -47,6 +39,14 @@ print(bank_marketing.metadata)
 # variable information
 print(bank_marketing.variables)
 ```
+* `from ucimlrepo import fetch_ucirepo` → importe la fonction permettant de télécharger des jeux de données depuis la bibliothèque **UCI Machine Learning Repository**.
+* `bank_marketing = fetch_ucirepo(id=222)` → télécharge le jeu de données **Bank Marketing** (ID 222 dans la base UCI).
+* `X = bank_marketing.data.features` → extrait les **variables explicatives** (features) sous forme de DataFrame `X`.
+* `y = bank_marketing.data.targets` → extrait la **variable cible** (target) sous forme de DataFrame `y`.
+* `print(bank_marketing.metadata)` → affiche les **informations générales** sur le jeu de données (nom, description, source, etc.).
+* `print(bank_marketing.variables)` → affiche la **description des variables** (noms, types, unités, etc.).
+
+
 **Code Python -VISUALISATION AVEC GRAPHES :**
 
 ```python
