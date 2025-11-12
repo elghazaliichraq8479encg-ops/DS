@@ -20,7 +20,7 @@ Le but est d'étudier et prédire l'efficacité des campagnes téléphoniques en
 
 !pip install ucimlrepo
 
-```
+
 
 from ucimlrepo import fetch_ucirepo
 
