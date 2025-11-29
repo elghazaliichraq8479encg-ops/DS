@@ -1,12 +1,10 @@
 # COURS DE SCIENCE DES DONNÉES
 ## École Nationale de Commerce et de Gestion (ENCG) - 4ème Année
 
-# Analyse des facteurs influençant le prix des téléphones portables
 
 # Analyse des facteurs influençant le prix des téléphones portables
 
-# Analyse des facteurs influençant le prix des téléphones portables
-# Analyse des facteurs influençant le prix des téléphones portables
+
 
 ## Sommaire
 
