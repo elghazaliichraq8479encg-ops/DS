@@ -3,7 +3,7 @@
 <img src="SETTAT.png" style="height:464px;margin-right:432px"/>
 
 # EL GHAZALI ICHRAQ 24010344
-
+<img src="PHOTO1.jpeg" style="height:464px;margin-right:432px"/>
 
 # Analyse des facteurs influençant le prix des téléphones portables
 
