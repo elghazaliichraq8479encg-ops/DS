@@ -76,6 +76,7 @@ sns.countplot(x='price_range', data=train_df)
 plt.title('Price Range Distribution')
 plt.show()
 ```
+<img src="téléchargement (2).png" style="height:464px;margin-right:432px"/>
 
 **Explication :**
 Crée un graphique en barres montrant combien de téléphones appartiennent à chaque catégorie de prix (0, 1, 2, 3).
@@ -97,6 +98,8 @@ for i, feature in enumerate(categorical_features, 1):
 plt.tight_layout()
 plt.show()
 ```
+<img src="téléchargement (3).png" style="height:464px;margin-right:432px"/>
+
 
 **Explication :**
 Crée 6 sous-graphiques (2 lignes × 3 colonnes) montrant la relation entre chaque caractéristique binaire (Bluetooth, dual SIM, 4G, 3G, écran tactile, WiFi) et la catégorie de prix.
@@ -144,6 +147,8 @@ Les graphiques KDE révèlent la forme de la distribution (normale, bimodale, as
 
 ---
 
+<img src="téléchargement (4).png" style="height:464px;margin-right:432px"/>
+
 #### Corrélation avec le prix
 
 ```python
@@ -154,6 +159,7 @@ plt.title("Top Features by Price Range")
 plt.tight_layout()
 plt.show()
 ```
+<img src="téléchargement (6).png" style="height:464px;margin-right:432px"/>
 
 **Explication :**
 Calcule la corrélation de Pearson entre toutes les variables numériques et la catégorie de prix, puis affiche les résultats triés dans un graphique en barres.
@@ -319,6 +325,7 @@ plt.xlabel("Model")
 plt.tight_layout()
 plt.show()
 ```
+<img src="téléchargement (7).png" style="height:464px;margin-right:432px"/>
 
 **Explication :**
 Crée un graphique en barres comparant la précision moyenne de chaque modèle obtenue par validation croisée.
@@ -342,6 +349,7 @@ plt.ylabel('Actual')
 plt.title('Confusion Matrix')
 plt.show()
 ```
+<img src="téléchargement (8).png" style="height:464px;margin-right:432px"/>
 
 **Explication :**
 Entraîne un Random Forest sur l'ensemble d'entraînement, fait des prédictions sur le test set, puis affiche une matrice de confusion visualisant les erreurs de classification.
