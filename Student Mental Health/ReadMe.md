@@ -410,34 +410,8 @@ Si déployé à l'échelle universitaire, ce système pourrait :
 
 ---
 
-## 5. Références Techniques
 
-### Bibliothèques Utilisées
-- **Pandas** (1.5+) : Manipulation de données
-- **NumPy** (1.23+) : Calcul numérique
-- **Scikit-learn** (1.3+) : Algorithmes ML et préprocessing
-- **Matplotlib/Seaborn** : Visualisation de données
-
-### Algorithmes Implémentés
-- LogisticRegression (liblinear solver)
-- RandomForestClassifier (Breiman, 2001)
-- GradientBoostingClassifier (Friedman, 2001)
-- SVC avec noyau RBF (Vapnik, 1995)
-- KNeighborsClassifier (distance euclidienne)
-
-### Paramètres Optimaux (Random Forest)
-```python
-{
-    'n_estimators': XXX,
-    'max_depth': XX,
-    'min_samples_split': X,
-    'min_samples_leaf': X
-}
-```
-
----
-
-## 6. Annexes
+## 5. Annexes
 
 ### Annexe A : Commandes de Reproduction
 
@@ -470,10 +444,7 @@ jupyter notebook analyse_sante_mentale.ipynb
 
 ---
 
-**Date de rédaction** : Décembre 2024  
-**Auteur** : [Votre Nom]  
-**Contact** : [Votre Email]
+
 
 ---
 
-*Ce rapport constitue un travail académique dans le cadre d'un projet de Machine Learning appliqué à la santé mentale des étudiants. Les résultats doivent être interprétés avec prudence et ne remplacent en aucun cas une évaluation clinique professionnelle.*
